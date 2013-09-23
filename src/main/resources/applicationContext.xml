@@ -36,6 +36,7 @@
 		<property name="minPoolSize" value="6" />
 		<property name="maxPoolSize" value="20" />
 		<property name="acquireIncrement" value="3" />
+		<property name="checkoutTimeout" value="5000" /> <!-- 5s -->
 	</bean>
     
 	<bean id="entityManagerFactory"
