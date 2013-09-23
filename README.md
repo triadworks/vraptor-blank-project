@@ -15,7 +15,7 @@ O projeto [vraptor-blank-project](https://github.com/triadworks/vraptor-blank-pr
 * Sitemesh 2.4.2
 * jQuery 1.8.2
 * Twitter Bootstrap v2.2.1
-* jUnit 4.11, Mockito 1.9.0 e DbUnit 2.4.9 (testes automatizados)
+* jUnit 4.11, Mockito 1.9.0, DbUnit 2.4.9 e [DbUnitManager 1.0](https://github.com/rponte/dbunitmanager) (testes automatizados)
 
 Para configurar o projeto siga os passos:
 
