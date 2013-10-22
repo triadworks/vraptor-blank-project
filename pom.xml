@@ -185,6 +185,35 @@
 		</dependency>
 
 		<!-- ************************ -->
+		<!-- JASPERREPORTS DEPENDENCIES -->
+		<!-- ************************ -->
+		<dependency>
+		    <groupId>br.com.prixma</groupId>
+		    <artifactId>vraptor-jasperreport</artifactId>
+		    <version>1.0.1</version>
+		    <exclusions>
+		    		<exclusion>
+					<groupId>br.com.caelum</groupId>
+					<artifactId>vraptor</artifactId>
+				</exclusion>
+		    		<exclusion>
+					<groupId>net.sf.jasperreports</groupId>
+					<artifactId>jasperreports</artifactId>
+				</exclusion>
+		    </exclusions>
+		</dependency>
+		<dependency>
+			<groupId>net.sf.jasperreports</groupId>
+			<artifactId>jasperreports</artifactId>
+			<version>5.1.2</version>
+		</dependency>
+		<dependency>
+			<groupId>net.sf.jasperreports</groupId>
+			<artifactId>jasperreports-fonts</artifactId>
+			<version>4.0.0</version>
+		</dependency>
+		
+		<!-- ************************ -->
 		<!-- PRODUCTION DEPENDENCIES -->
 		<!-- ************************ -->
 		<dependency>
